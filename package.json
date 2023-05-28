@@ -5,10 +5,9 @@
     "sqlite"
   ],
   "devDependencies": {
-    "@types/node": "^20.2.5",
-    "antlr4ts-cli": "^0.5.0-alpha.4"
+    "@types/node": "^20.2.5"
   },
   "dependencies": {
-    "antlr4ts": "^0.5.0-alpha.4"
+    "antlr4": "^4.13.0"
   }
 }

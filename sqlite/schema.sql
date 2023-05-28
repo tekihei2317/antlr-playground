@@ -10,7 +10,7 @@ CREATE TABLE Post (
 	id INTEGER NOT NULL,
 	authorId INTEGER NOT NULL,
 	title TEXT NOT NULL,
-	published INT NOT NULL DEFAULT 0, -- Boolean
-	PRIMARY KEY (id)
+	published integer NOT NULL DEFAULT 0, -- Boolean
+	PRIMARY KEY (id),
 	FOREIGN KEY (authorId) REFERENCES User (id)
 );
